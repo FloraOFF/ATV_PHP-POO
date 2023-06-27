@@ -1,0 +1,57 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-image: url(../IMG/indexFundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Define a altura do body como 100% da altura da janela */
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(54, 50, 47);
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 2%;
+    padding: 1%;
+    background-color: rgb(70, 67, 64);
+}
+
+main {
+  flex-grow: 1; /* Ocupar todo o espaço disponível verticalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: azure;
+  margin: 0;
+}
+
+.footerI {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
