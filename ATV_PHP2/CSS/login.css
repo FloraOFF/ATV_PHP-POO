@@ -1,0 +1,69 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(../IMG/TesteFundoLOGIN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Define a altura do body como 100% da altura da janela */
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(148, 94, 68, 0.815); /* Define a cor de fundo com transparência */
+    position: fixed;
+    top: 50%; /* Move a seção para o centro vertical */
+    left: 50%; /* Move a seção para o centro horizontal */
+    transform: translate(-50%, -50%); /* Reposiciona a seção no centro absoluto */
+    padding: 20px; /* Adicione um preenchimento opcional */
+    border-radius: 1rem;
+  }
+
+#tipoUsuario{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+#tipoUsuario li {
+    list-style: none;
+    margin-right: 10px;
+    color: black;
+}
+
+#tipoUsuario li:last-child {
+    margin-right: 0; /* Remove o espaçamento à direita do último item */
+}
+
+#tipoUsuario a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: rgba(73, 49, 37, 0.87);
+    color: rgb(199, 197, 197);
+    border-radius: 1rem;
+}
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#Home p {
+    margin-bottom: 5px;
+}
+
+#Home a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(73, 49, 37, 0.87);
+    color: rgb(199, 197, 197);
+    padding: 8px 12px;
+    border-radius: 1rem;
+}

@@ -1,0 +1,60 @@
+.disciplina, .curso, .aluno, .professor, .excluir, #resultado-container, .message {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#resultado-container {
+  display: none;
+}
+
+.form-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.form-entidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #4d4a4a9c;
+  padding: 1%;
+  border-radius: 2%;
+}
+
+.form-entidade label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-entidade input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.form-entidade button {
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-entidade button:hover {
+  background-color: #ddd;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-image: url(../IMG/TesteFundoMOSTRAR.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Define a altura do body como 100% da altura da janela */
+} 
+
