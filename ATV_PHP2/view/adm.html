@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/adm.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbarADM" id="menu">
+            <ul id="listAdm">
+                <p>INSERIR: </p>
+                <li>
+                    <a href="./formCurso.html">Curso</a>
+                </li>
+                <li>
+                    <a href="./formDisciplina.html">Disciplina</a>
+                </li>
+                <li>
+                    <a href="./formAluno.html">Aluno</a>
+                </li>
+                <li>
+                    <a href="./formProfessor.html">Professor</a>
+                </li>
+                <li id="Login">
+                    <a href="./login.html">Login</a>
+                </li>
+            </ul>
+            <ul id="listAdm">
+                <p>DELETAR: </p>
+                <li>
+                    <span class="dropdown-trigger">Professor</span>
+                    <ul class="sub-dropdown-menu">
+                        <li>
+                            <a href="./excluirProfessor.php">Excluir Professor</a>
+                        </li>
+                        <li>
+                            <a href="./excluirProfessores.php">Excluir Todos os Professores</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="dropdown-trigger">Aluno</span>
+                    <ul class="sub-dropdown-menu">
+                        <li>
+                            <a href="./excluirAluno.php">Excluir Aluno</a>
+                        </li>
+                        <li>
+                            <a href="./excluirAlunos.php">Excluir Todos os Alunos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="dropdown-trigger">Disciplina</span>
+                    <ul class="sub-dropdown-menu">
+                        <li>
+                            <a href="./excluirDisciplina.php">Excluir Disciplina</a>
+                        </li>
+                        <li>
+                            <a href="./excluirDisciplinas.php">Excluir Todas as Disciplinas</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="dropdown-trigger">Curso</span>
+                    <ul class="sub-dropdown-menu">
+                        <li>
+                            <a href="./excluirCurso.php">Excluir Curso</a>
+                        </li>
+                        <li>
+                            <a href="./excluirCursos.php">Excluir Todos os Cursos</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Bem Vindo ao Sistema Acadêmico</h1>
+            <div class="buttonsG">
+                <div class="bItens">
+                    <img src="../IMG/Disciplina.jpg" alt="Disciplina">
+                    <a href="./exibirDisciplinas.php">
+                        <button>Mostrar Disciplinas</button>
+                    </a>
+                </div>
+                <div class="bItens">
+                    <img src="../IMG/Curso.jpg" alt="Curso">
+                    <a href="./exibirCursos.php">
+                        <button>Mostrar Cursos</button>
+                    </a>
+                </div>
+                <div class="bItens">
+                    <img src="../IMG/Aluno.jpg" alt="Aluno">
+                    <a href="./exibirAlunos.php">
+                        <button>Mostrar Alunos</button>
+                    </a>
+                </div>
+                <div class="bItens">
+                    <img src="../IMG/Professor1.jpg" alt="Professor">
+                    <a href="./exibirProfessores.php">
+                        <button>Mostrar Professores</button>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
